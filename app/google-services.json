@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "261378138156",
+    "firebase_url": "https://mywallet-afcbb-default-rtdb.firebaseio.com",
+    "project_id": "mywallet-afcbb",
+    "storage_bucket": "mywallet-afcbb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261378138156:android:e95c5a4ea580c9ac2ab189",
+        "android_client_info": {
+          "package_name": "com.project.mywallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261378138156-npj9q7jbm82g3jitvdv2pf0guamfuik3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyD-KIL2UJ-wQAoz84CtB8FodnGqW9CwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261378138156-mvhgh713dsmbcl6u9t06lgvi36pebkri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261378138156:android:7601906ceeff440c2ab189",
+        "android_client_info": {
+          "package_name": "com.project.transapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261378138156-npj9q7jbm82g3jitvdv2pf0guamfuik3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyD-KIL2UJ-wQAoz84CtB8FodnGqW9CwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261378138156-mvhgh713dsmbcl6u9t06lgvi36pebkri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261378138156:android:8ab5952f2c1db65e2ab189",
+        "android_client_info": {
+          "package_name": "com.vidhan.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261378138156-a8pmdnrfe7h9thbg8k25t5qpfr9cgdef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vidhan.myapplication",
+            "certificate_hash": "c9fd957b3e0b6e6a4a37f6dc3e2d4a9cdac982c9"
+          }
+        },
+        {
+          "client_id": "261378138156-npj9q7jbm82g3jitvdv2pf0guamfuik3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyD-KIL2UJ-wQAoz84CtB8FodnGqW9CwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261378138156-mvhgh713dsmbcl6u9t06lgvi36pebkri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
