@@ -5,9 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.project.transapp.Model.Truck;
@@ -49,6 +51,12 @@ public class TruckAdapter extends RecyclerView.Adapter<TruckAdapter.ViewHolder> 
             }
         });
 
+        if (trip.isSelfOwned()) {
+            holder.ll_item.setBackgroundColor(ContextCompat.getColor(context, R.color.teal_700));
+        } else {
+            holder.ll_item.setBackgroundColor(ContextCompat.getColor(context, R.color.red));
+        }
+
     }
 
     @Override
@@ -60,13 +68,14 @@ public class TruckAdapter extends RecyclerView.Adapter<TruckAdapter.ViewHolder> 
         TextView tv_pageNumber, tv_partyName;
 
         ImageView iv_editButton;
+        LinearLayout ll_item;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             tv_pageNumber = itemView.findViewById(R.id.tv_pageNumber);
             tv_partyName = itemView.findViewById(R.id.tv_partyName);
             iv_editButton = itemView.findViewById(R.id.editButton);
-
+            ll_item = itemView.findViewById(R.id.ll_item);
         }
     }
 }

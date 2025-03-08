@@ -46,7 +46,7 @@ public class ExpenseTypeAdapter extends RecyclerView.Adapter<ExpenseTypeAdapter.
         String pageNumber = String.valueOf(position + 1);
         holder.tv_pageNumber.setText(pageNumber);
 
-String type = expenseType.getType() != null ? expenseType.getType() : "";
+        String type = expenseType.getType() != null ? expenseType.getType() : "";
         if (type.equalsIgnoreCase("Credit")) {
             holder.ll_item.setBackgroundColor(ContextCompat.getColor(context, R.color.teal_700));
         } else {

@@ -202,4 +202,30 @@
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout7"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/icon7"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/title7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="View Bill"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 </LinearLayout>
