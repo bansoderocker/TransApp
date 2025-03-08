@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     int[] images = {R.drawable.local_shipping_24px};
-    String[] names = {"Party", "Truck", "Driver", "Transport", "Expense", "Trip"};
+    String[] names = {"Party", "Truck", "Driver", "Transport", "Expense", "Trip","View Bill"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setClickListener(R.id.title4, R.id.layout4);
         setClickListener(R.id.title5, R.id.layout5);
         setClickListener(R.id.title6, R.id.layout6);
+        setClickListener(R.id.title7, R.id.layout7);
     }
     private void setClickListener(int textViewId, int layoutId) {
         TextView textView = findViewById(textViewId);
@@ -54,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case "Trip":
                 intent = new Intent(this, TripActivity.class);
+                break;
+            case "View Bill":
+                intent = new Intent(this, ViewBillActivity.class);
                 break;
             default:
                 return;

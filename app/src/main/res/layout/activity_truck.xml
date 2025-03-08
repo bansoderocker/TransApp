@@ -37,6 +37,14 @@
             android:hint="Remark" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cb_self_owned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we are the self owned"
+        android:checked="false"
+        android:textSize="16sp"/>
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_submit_truck"
         android:layout_width="match_parent"

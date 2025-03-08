@@ -40,4 +40,12 @@ public class Truck {
     public void setTruckNumber(String truckNumber) {
         this.TruckNumber = truckNumber;
     }
+
+    public boolean isSelfOwned() {
+        return selfOwned;
+    }
+
+    public void setSelfOwned(boolean selfOwned) {
+        this.selfOwned = selfOwned;
+    }
 }
